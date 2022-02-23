@@ -76,7 +76,7 @@ body {
   bottom: 0px;
   left: 0;
   z-index: 3;
-  max-width: 200px;
+  max-width: 230px;
 }
 .sec1__title {
   width: 100%;
@@ -555,7 +555,7 @@ body {
 }
 
 .sec3__prod-img--2 {
-  right: 15%;
+  right: 1%;
   max-width: 230px;
 }
 
@@ -1157,9 +1157,9 @@ footer p {
     z-index: 9999;
   }
   .sec1__prod {
-    width: 400px;
-    bottom: -218px;
-    left: 100px;
+    width: 100%;
+    bottom: -250px;
+    left: 80px;
   }
 
   .sec1__rose {
@@ -1272,7 +1272,7 @@ footer p {
   }
 
   .sec3__prod-img--2 {
-    width: 100px;
+    width: 210px;
   }
 
   .sec3__prod-img--3 {
