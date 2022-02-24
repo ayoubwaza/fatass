@@ -1,76 +1,45 @@
-@font-face {
-  font-weight: normal;
-  font-family: "Appetite";
-  font-style: normal;
-  src: url("../fonts/Appetite.eot");
-  src: url("../fonts/Appetite.woff2") format("woff2"),
-    url("../fonts/Appetite.woff") format("woff"),
-    url("../fonts/Appetite.ttf") format("truetype"),
-    url("../fonts/Appetite.eot?#iefix") format("embedded-opentype");
-}
-
-@font-face {
-  font-weight: normal;
-  font-family: "OpenSerif-Black";
-  font-style: normal;
-  src: url("../fonts/OpenSerif-Black.eot");
-  src: url("../fonts/OpenSerif-Black.woff2") format("woff2"),
-    url("../fonts/OpenSerif-Black.woff") format("woff"),
-    url("../fonts/OpenSerif-Black.ttf") format("truetype"),
-    url("../fonts/OpenSerif-Black.eot?#iefix") format("embedded-opentype");
-}
-
 img {
   max-width: 100%;
 }
-
 body {
-  font-size: 16px;
   line-height: 1.2;
   font-family: "El Messiri", sans-serif;
 }
-
 .contaier {
   overflow: hidden;
 }
-
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
-
 .wrapper {
   position: relative;
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
-
 .sec1 {
   position: relative;
   padding-top: 40px;
   padding-bottom: 140px;
   color: #ffffff;
-  background-color: #CB2580;
+  background-color: #cb2580;
   background-image: url("../img/sec1__bg.png");
   background-repeat: no-repeat;
   background-position: center top;
 }
-
 .sec1__woman {
   position: absolute;
   bottom: 0;
   left: -270px;
 }
-
 .sec1__rose {
   position: absolute;
   bottom: -110px;
   left: -280px;
   z-index: 3;
 }
-
 .sec1__prod {
   position: absolute;
   bottom: 0px;
@@ -85,12 +54,10 @@ body {
   margin-left: 220px;
   font-family: "El Messiri", sans-serif;
 }
-
 .sec1__logo {
   position: relative;
   z-index: 2;
 }
-
 .sec1__title span {
   position: relative;
   z-index: 10;
@@ -103,13 +70,11 @@ body {
   -ms-transform: matrix(1, -0.12316110060334, 0, 1, 0, 0);
   text-shadow: 0 0 22px red, -5px 5px 0px black;
 }
-
 @media screen and (max-width: 1023px) {
   .sec1__title span {
     font-size: 71px;
   }
 }
-
 .sec1__title div {
   width: 304px;
   margin: -65px auto 0;
@@ -131,7 +96,6 @@ body {
   border-radius: 5px;
   transform: skew(12deg);
 }
-
 .sec1__list {
   width: 720px;
   margin: 0 auto;
@@ -149,7 +113,7 @@ body {
   width: 250px;
   font-weight: bold;
   font-size: 1.2em;
-  background: #CB2580;
+  background: #cb2580;
   color: white;
   box-shadow: 0 2em 4em #fff;
   padding: 7px;
@@ -169,11 +133,9 @@ body {
   text-align: center;
   position: relative;
 }
-
 .sec1__list li div {
   position: relative;
 }
-
 .sec1__list li div::before {
   content: "";
   position: absolute;
@@ -188,19 +150,17 @@ body {
   width: 250px;
   font-weight: bold;
   font-size: 1.2em;
-  background: #CB2580;
+  background: #cb2580;
   color: white;
   box-shadow: 0 2em 4em #fff;
   padding: 7px;
   border-radius: 20px;
   border: orange 2px solid;
 }
-
 .btn:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
-
 .sec1 .sec2__right {
   display: none;
 }
@@ -216,7 +176,6 @@ body {
   position: relative;
   margin-left: 9px;
 }
-
 .sec2 {
   position: relative;
   height: 100%;
@@ -246,7 +205,6 @@ body {
   background: url("../img/wave.png") no-repeat center center;
   background-size: 1920px 164px;
 }
-
 .sec2::after {
   content: "";
   position: absolute;
@@ -259,13 +217,11 @@ body {
   background-size: 1920px 164px;
   transform: scale(-1);
 }
-
 .sec2__left,
 .sec2__right {
   float: left;
   width: 50%;
 }
-
 .sec2__right {
   margin-left: 0px;
   position: relative;
@@ -280,7 +236,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   font-family: "El Messiri", sans-serif;
-  color: #CB2580;
+  color: #cb2580;
   text-transform: uppercase;
   direction: rtl;
 }
@@ -307,46 +263,40 @@ body {
   color: #fef4af;
   text-transform: uppercase;
 }
-
 .sec2__arrow span {
   font-size: 18px;
   vertical-align: top;
 }
-
 .sec2__arrow-i-1 {
   padding-top: 0px;
   padding-right: 20px;
   padding-bottom: 15px;
   padding-left: 20px;
-  color: #CB2580;
+  color: #cb2580;
   transform: skew(20deg);
   width: 100%;
   text-align: center;
   font-weight: bold;
   font-size: 1.2em;
 }
-
 .sec2__arrow-text1 {
   transform: skew(-20deg);
   font-size: 2em;
   position: relative;
   top: -40px;
 }
-
 .sec2__arrow-i-2 {
   padding-top: 15px;
   padding-right: 20px;
   padding-bottom: 15px;
   padding-left: 20px;
-  background-color: #CB2580;
+  background-color: #cb2580;
   transform: skew(-20deg);
 }
-
 .sec2__arrow-text2 {
   transform: skew(20deg);
   line-height: 0.9;
 }
-
 .sec2__dash {
   box-sizing: border-box;
   width: 517px;
@@ -357,7 +307,7 @@ body {
   font-size: 20px;
   font-family: "El Messiri", sans-serif;
   text-align: center;
-  color: #CB2580;
+  color: #cb2580;
   background: url("../img/dash.png") no-repeat 0 0;
   background-size: contain;
 }
@@ -369,28 +319,23 @@ body {
   font-size: 30px;
   text-transform: uppercase;
 }
-
 .sec2__dash span {
   color: #000000;
 }
-
 .sec2__image {
   position: relative;
   border: 4px solid #ffffff;
   box-shadow: 2.121px 2.121px 13px 0 rgba(0, 0, 0, 0.3);
 }
-
 .sec2__image--1 {
   z-index: 2;
 }
-
 .sec2__image--2 {
   top: -30px;
   left: -8px;
   z-index: 1;
   transform: rotate(-5deg);
 }
-
 .sec2__image--3 {
   top: -40px;
   transform: rotate(-5deg);
@@ -449,7 +394,7 @@ body {
 
 .sec3 .title {
   color: #ffffff;
-  text-shadow: 3px 3px 0 #CB2580;
+  text-shadow: 3px 3px 0 #cb2580;
 }
 
 .sec3 p {
@@ -468,7 +413,7 @@ body {
 
 .sec3__list {
   padding-left: 0;
-  color: #CB2580;
+  color: #cb2580;
   counter-reset: list;
 }
 
@@ -483,7 +428,7 @@ body {
   padding-bottom: 20px;
   padding-left: 75px;
   list-style: none;
-  color: #CB2580;
+  color: #cb2580;
   background-color: #ffffff;
   border-radius: 50px;
   text-align: center;
@@ -503,7 +448,7 @@ body {
   font-size: 50px;
   font-family: "El Messiri", sans-serif;
   color: #fff3af;
-  text-shadow: 3px 3px 0 #CB2580;
+  text-shadow: 3px 3px 0 #cb2580;
   counter-increment: list;
 }
 
@@ -517,7 +462,7 @@ body {
   padding-right: 300px;
   padding-left: 134px;
   color: #ffffff;
-  background: #CB2580;
+  background: #cb2580;
   text-align: center;
   font-weight: bold;
   line-height: 2;
@@ -614,7 +559,7 @@ body {
   margin-bottom: 80px;
   font-size: 20px;
   font-family: "El Messiri", sans-serif;
-  color: #CB2580;
+  color: #cb2580;
   text-align: center;
   direction: rtl;
   line-height: 1.5;
@@ -652,7 +597,7 @@ body {
 .sec4__i-title {
   display: inline;
   font-size: 1.255em;
-  color: #CB2580;
+  color: #cb2580;
   text-transform: uppercase;
   text-align: center;
   direction: rtl;
@@ -844,7 +789,7 @@ img.sec5__rose {
 }
 .forum_sect_para {
   width: 800px;
-  background: #CB2580;
+  background: #cb2580;
 }
 .forum_sect_para p {
   text-align: center;
@@ -861,7 +806,7 @@ img.sec5__rose {
   margin-top: 20px;
 }
 ._child form {
-  background: #CB2580;
+  background: #cb2580;
   width: 300px;
   display: flex;
   justify-content: center;
@@ -886,8 +831,8 @@ form h3 {
 form h4 {
   font-weight: bold;
   text-align: center;
-  color: rgb(255, 0, 0);
-  text-decoration: line-through lightblue 2px;
+  color: rgb(255, 255, 255);
+  text-decoration: line-through rgb(2, 255, 2) 2px;
   font-size: 1.5em;
   margin-bottom: 0;
 }
@@ -903,7 +848,7 @@ form button {
   width: 250px;
   font-weight: bold;
   font-size: 1.2em;
-  background: #CB2580;
+  background: #cb2580;
   color: white;
   box-shadow: 0 2em 4em #fff;
   padding: 7px;
@@ -923,7 +868,7 @@ footer {
 }
 footer hr {
   width: 50%;
-  background: #CB2580;
+  background: #cb2580;
   padding: 7px;
   border-radius: 20px;
 }
@@ -951,7 +896,7 @@ footer p {
   flex-direction: column;
   text-align: center;
   direction: rtl;
-  background-color: #CB2580;
+  background-color: #cb2580;
   background-image: url("../img/sec1__bg.png");
   background-repeat: no-repeat;
   background-position: center top;
@@ -1029,7 +974,7 @@ footer p {
   width: 300px;
   text-align: center;
   left: 5%;
-  background: #CB2580;
+  background: #cb2580;
   color: #fff;
   font-weight: bold;
   font-size: 1.1em;
@@ -1044,12 +989,12 @@ footer p {
 @media screen and (max-width: 800px) {
   .__items {
     position: relative;
-    top:-10px;
+    top: -10px;
   }
   .sec2__product {
     position: relative;
     top: -20px;
-    left:-15px;
+    left: -15px;
   }
   .sec2__product img {
     width: 100%;
@@ -1057,7 +1002,7 @@ footer p {
   }
   .exacr {
     position: relative;
-    top:20px !important;
+    top: 20px !important;
     display: flex;
   }
   .exacd {
@@ -1095,7 +1040,7 @@ footer p {
     text-align: right;
     font-weight: bold;
     line-height: 2;
-    background: #CB2580;
+    background: #cb2580;
     margin-bottom: 10px;
     color: #fff;
     text-align: center;
@@ -1104,6 +1049,13 @@ footer p {
   .howtouse .second_prod {
     background: #fdbf0b;
     color: #fff;
+    margin: 0 10px 0 10px;
+  }
+  .howtouse .first_prod {
+    background: #fdbf0b;
+    color: #fff;
+    margin: 0 10px 20px 10px;
+    padding: 0 7px 0 7px ;
   }
   /*howtouse*/
   .handle_prods {
