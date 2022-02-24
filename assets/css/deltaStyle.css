@@ -60,6 +60,9 @@ body {
   -ms-transform: matrix(1, -0.12316110060334, 0, 1, 0, 0);
   text-shadow: 0 0 22px red, -5px 5px 0px black;
 }
+.sec1 {
+    padding-bottom: 20px;
+}
 @media screen and (max-width: 1023px) {
   .sec1__title span {
     font-size: 71px;
@@ -121,6 +124,7 @@ body {
   direction: rtl !important;
   text-align: center;
   position: relative;
+  transform: skew(6deg);
 }
 .sec1__list li div {
   position: relative;
@@ -164,6 +168,10 @@ body {
   top: 5px !important;
   position: relative;
   margin-left: 9px;
+}
+.elog img {
+    width: 350px;
+    object-fit: cover;
 }
 .sec2 {
   position: relative;
@@ -1056,7 +1064,14 @@ footer p {
     top: 265px;
     left: 10px;
   }
-
+  .es {
+      margin-top: 30px;
+  }
+  .sec1 {
+      padding-top: 20px;
+      padding-bottom: 20px !important;
+      padding-bottom: 0% !important;
+  }
   .sec1 .sec2__image--2 {
     top: -205px;
     transform: rotate(-4deg);
@@ -1200,6 +1215,7 @@ footer p {
     position: relative;
     border-end-end-radius: 0%;
     border-bottom-right-radius: 0%;
+    width: 300px;
   }
   .sec3__prod-img--1 {
     bottom: 0;
@@ -1256,6 +1272,9 @@ footer p {
   .sect_1prod {
       background: #0b073a;
       width: 100%;
+  }
+  .elog img {
+    width: 100%;
   }
   .sec4__item {
     width: 100%;
@@ -1319,18 +1338,7 @@ footer p {
     position: relative;
     z-index: 200;
   }
-  .sec1::before {
-    content: "";
-    position: absolute;
-    background: url("../img/pr3g.png") no-repeat;
-    width: 5000px;
-    height: 290px;
-    right: -35%;
-    top: -47px;
-    background-position: right;
-    background-size: contain;
-    z-index: 9999;
-  }
+
   .orange__title b,
   .orange__title span {
     font-size: 35px;
