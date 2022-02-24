@@ -1089,18 +1089,7 @@ footer p {
     position: relative;
     left: -5%;
   }
-  .sec1::before {
-    content: "";
-    position: absolute;
-    background: url("../img/a3.png") no-repeat;
-    width: 100%;
-    height: 280px;
-    right: -3%;
-    top: 0px;
-    background-position: right;
-    background-size: contain;
-    z-index: 9999;
-  }
+
   .sec1__prod {
     width: 100%;
     bottom: -250px;
@@ -1260,6 +1249,7 @@ footer p {
   .sec4 {
     padding-top: 0px;
     padding-bottom: 30px;
+    margin-top: 40px;
   }
 
   .sec4__subtitle {
