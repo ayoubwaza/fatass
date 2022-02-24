@@ -1273,7 +1273,9 @@ footer p {
     padding-bottom: 30px;
     margin-top: 40px;
   }
-
+  .sec4 .title {
+    text-align: center;
+  }
   .sec4__subtitle {
     margin-bottom: 20px;
   }
@@ -1347,11 +1349,11 @@ footer p {
   .sec1::before {
     content: "";
     position: absolute;
-    background: url("../img/butt.png") no-repeat;
-    width: 100%;
-    height: 280px;
-    right: -3%;
-    top: 0px;
+    background: url("../img/pr3g.png") no-repeat;
+    width: 5000px;
+    height: 290px;
+    right: -35%;
+    top: -47px;
     background-position: right;
     background-size: contain;
     z-index: 9999;
