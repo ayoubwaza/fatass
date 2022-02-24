@@ -1130,10 +1130,12 @@ footer p {
     font-size: 2em !important;
     position: relative;
     top: -10% !important;
+    margin: 0% !important;
   }
   .sec2__dash p {
     position: relative;
     top: -30px;
+    font-size: 1.2em;
   }
   .sec1__list {
     width: 100%;
