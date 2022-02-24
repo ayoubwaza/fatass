@@ -36,7 +36,19 @@ body {
   left: -280px;
   z-index: 3;
 }
-
+form p span {
+    color: rgb(0, 255, 42);
+    font-size: 1.4em;
+    animation: HEBTN infinite  400ms;
+  }
+  @keyframes HEBTN {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(10);
+    }
+  }
 .sec1__title {
   width: 100%;
   max-width: 400px;
@@ -61,7 +73,7 @@ body {
   text-shadow: 0 0 22px red, -5px 5px 0px black;
 }
 .sec1 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 @media screen and (max-width: 1023px) {
   .sec1__title span {
@@ -170,8 +182,8 @@ body {
   margin-left: 9px;
 }
 .elog img {
-    width: 350px;
-    object-fit: cover;
+  width: 350px;
+  object-fit: cover;
 }
 .sec2 {
   position: relative;
@@ -427,7 +439,6 @@ body {
   text-shadow: 3px 3px 0 #cb2580;
   counter-increment: list;
 }
-
 
 .sec3__warning-text {
   position: relative;
@@ -758,7 +769,7 @@ img.sec5__rose {
 }
 ._child form {
   background: #cb2580;
-  width: 300px;
+  width: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -772,6 +783,12 @@ img.sec5__rose {
 }
 ._child form div {
   margin-bottom: 20px;
+}
+.frm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 form h3 {
   font-weight: bold;
@@ -1065,12 +1082,12 @@ footer p {
     left: 10px;
   }
   .es {
-      margin-top: 30px;
+    margin-top: 30px;
   }
   .sec1 {
-      padding-top: 20px;
-      padding-bottom: 20px !important;
-      padding-bottom: 0% !important;
+    padding-top: 20px;
+    padding-bottom: 20px !important;
+    padding-bottom: 0% !important;
   }
   .sec1 .sec2__image--2 {
     top: -205px;
@@ -1150,13 +1167,13 @@ footer p {
     margin: 0 auto 30px;
   }
   .sect_1prod {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
   }
- 
+
   .sec1__list li {
     padding-left: 0px;
     font-size: 1.2em;
@@ -1215,17 +1232,18 @@ footer p {
     position: relative;
     border-end-end-radius: 0%;
     border-bottom-right-radius: 0%;
-    width: 300px;
+    width: 350px;
   }
   .sec3__prod-img--1 {
     bottom: 0;
     width: 430px;
   }
   form p {
-      margin: 0;
-      text-align: center;
-      font-weight: bold;
-      line-height: 2;
+    margin: 0;
+    font-size: 1.2em !important;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2;
   }
   .sec3__prod-img--2 {
     width: 100% !important;
@@ -1234,7 +1252,25 @@ footer p {
   .sec3__prod-img--3 {
     bottom: -20px;
   }
-
+  form p span {
+    color: rgb(0, 255, 42);
+    font-size: 1.4em;
+    animation: HEBTN infinite  400ms;
+  }
+  @keyframes HEBTN {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(10);
+    }
+  }
+  form i {
+      margin-bottom: 10px;
+  }
+  .form_ctn {
+      margin: 0 !important;
+  }
   .sec3__warning {
     padding: 10px;
     padding-top: 75px;
@@ -1275,8 +1311,8 @@ footer p {
     font-size: 20px;
   }
   .sect_1prod {
-      background: #0b073a;
-      width: 100%;
+    background: #0b073a;
+    width: 100%;
   }
   .elog img {
     width: 100%;
