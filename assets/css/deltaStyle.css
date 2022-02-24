@@ -1221,7 +1221,12 @@ footer p {
     bottom: 0;
     width: 430px;
   }
-
+  form p {
+      margin: 0;
+      text-align: center;
+      font-weight: bold;
+      line-height: 2;
+  }
   .sec3__prod-img--2 {
     width: 100% !important;
     object-fit: cover;
