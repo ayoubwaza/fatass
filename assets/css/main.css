@@ -105,7 +105,6 @@ body {
   align-items: center;
   width: 100%;
   margin: 0 !important;
-  z-index: 999999999999999999999999;
   position: relative;
 }
 ._btn_hnalder button {
@@ -1204,6 +1203,8 @@ footer p {
   form img {
     border-radius: 20px;
     position: relative;
+    border-end-end-radius: 0%;
+    border-bottom-right-radius: 0%;
   }
   .sec3__prod-img--1 {
     bottom: 0;
@@ -1249,7 +1250,6 @@ footer p {
   .sec4 {
     padding-top: 0px;
     padding-bottom: 30px;
-    margin-top: 40px;
   }
 
   .sec4__subtitle {
@@ -1270,7 +1270,17 @@ footer p {
     float: none;
     margin: 0 auto;
   }
-
+  .w-vulcan--background,.wistia_grid_84_wrapper {
+    z-index: 9999999999;
+  }
+  .vid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
   .sec4__text {
     padding: 10px;
     text-align: center;
@@ -1278,7 +1288,13 @@ footer p {
     line-height: 2;
     font-size: 1.2em;
   }
-
+  .vid_btn {
+    margin-top: 20px !important;
+  }
+  .vid_btn button {
+    width: 320px !important;
+    border-radius: 0%;
+  }
   .sec4__i-title {
     display: block;
   }
