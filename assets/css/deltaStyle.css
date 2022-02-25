@@ -37,18 +37,18 @@ body {
   z-index: 3;
 }
 form p span {
-    color: rgb(0, 255, 42);
-    font-size: 1.4em;
-    animation: HEBTN infinite  400ms;
+  color: rgb(0, 255, 42);
+  font-size: 1.4em;
+  animation: HEBTN infinite 400ms;
+}
+@keyframes HEBTN {
+  from {
+    transform: scale(1);
   }
-  @keyframes HEBTN {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(10);
-    }
+  to {
+    transform: scale(10);
   }
+}
 .sec1__title {
   width: 100%;
   max-width: 400px;
@@ -785,10 +785,10 @@ img.sec5__rose {
   margin-bottom: 20px;
 }
 .frm {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 form h3 {
   font-weight: bold;
@@ -955,6 +955,17 @@ footer p {
   display: none;
 }
 @media screen and (max-width: 800px) {
+  .wtsp {
+    position: fixed;
+    right: -2%;
+    z-index: 99999999999999999999999;
+    top: 60%;
+  }
+  .wtsp img {
+    width:100px;
+    height: 100px;
+    object-fit: cover;
+  }
   .__items {
     position: relative;
     top: -10px;
@@ -1255,7 +1266,7 @@ footer p {
   form p span {
     color: rgb(0, 255, 42);
     font-size: 1.4em;
-    animation: HEBTN infinite  400ms;
+    animation: HEBTN infinite 400ms;
   }
   @keyframes HEBTN {
     from {
@@ -1266,10 +1277,10 @@ footer p {
     }
   }
   form i {
-      margin-bottom: 10px;
+    margin-bottom: 10px;
   }
   .form_ctn {
-      margin: 0 !important;
+    margin: 0 !important;
   }
   .sec3__warning {
     padding: 10px;
